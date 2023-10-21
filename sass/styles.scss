@@ -1,0 +1,100 @@
+/*Variables*/
+$color-fondo-menu-footer: #1AACAC;
+$color-link-menu: white;
+$color-iconos: black;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Menu */
+header {
+    .fondoMenu{
+        background-color: $color-fondo-menu-footer;
+    }
+}
+
+.navbar-light {
+    .navbar-nav{
+        .nav-link {
+            color: $color-link-menu;
+        }
+    }
+
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color: #362FD9;
+    /* color: #1AACAC; */
+    color: #D9F7F7;
+    border-radius: 10px;
+}
+
+/*body -> tarjetas de productos*/
+.col{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+    .card-img-top{
+        padding: 5px;
+        height: 325px;
+    
+    }
+}
+
+.container{
+
+    .titulo-contactanos{
+        display: flex;
+        justify-content: center;
+    
+        
+    }
+    
+    .contactanos-div {
+        display: flex;
+        justify-content: center;
+
+        .mapa{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 100px;
+        }
+
+    }
+
+    
+    
+
+}
+
+/*footer */
+footer {
+    background-color: $color-fondo-menu-footer;
+
+    .logos_footer{
+        display: flex;
+        justify-content: center;
+
+        li {
+            list-style-type: none;
+
+            a{
+                text-decoration: none;
+
+                .bi {
+                    color: $color-iconos;
+                    font-size: 30px;
+                    margin: 10px;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,95 @@
+/*Variables*/
+/* line 6, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Menu */
+/* line 13, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+header .fondoMenu {
+  background-color: #1AACAC;
+}
+
+/* line 20, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+/* line 25, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.navbar-light .navbar-collapse {
+  flex-grow: 0;
+}
+
+/* line 30, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: #362FD9;
+  /* color: #1AACAC; */
+  color: #D9F7F7;
+  border-radius: 10px;
+}
+
+/*body -> tarjetas de productos*/
+/* line 38, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.col {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* line 43, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.col .card-img-top {
+  padding: 5px;
+  height: 325px;
+}
+
+/* line 52, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.container .titulo-contactanos {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 59, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.container .contactanos-div {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 63, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.container .contactanos-div .mapa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+/*footer */
+/* line 78, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+footer {
+  background-color: #1AACAC;
+}
+
+/* line 81, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+footer .logos_footer {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 85, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+footer .logos_footer li {
+  list-style-type: none;
+}
+
+/* line 88, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+footer .logos_footer li a {
+  text-decoration: none;
+}
+
+/* line 91, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+footer .logos_footer li a .bi {
+  color: black;
+  font-size: 30px;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
