@@ -49,47 +49,80 @@ header .fondoMenu {
   justify-content: center;
 }
 
-/* line 59, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+/* line 58, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
 .container .contactanos-div {
   display: flex;
   justify-content: center;
 }
 
-/* line 63, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+/* line 62, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.container .contactanos-div .formulario {
+  width: 40%;
+  margin: 0 50px 0 50px;
+}
+
+/* line 66, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.container .contactanos-div .formulario span {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+/* line 72, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.container .contactanos-div .formulario .btn-enviar {
+  display: flex;
+  justify-content: right;
+}
+
+/* line 78, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
 .container .contactanos-div .mapa {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 100px;
+  width: 60%;
+  margin: 0 50px 0 50px;
 }
 
 /*footer */
-/* line 78, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+/* line 92, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
 footer {
   background-color: #1AACAC;
 }
 
-/* line 81, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+/* line 95, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
 footer .logos_footer {
   display: flex;
   justify-content: center;
 }
 
-/* line 85, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+/* line 99, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
 footer .logos_footer li {
   list-style-type: none;
 }
 
-/* line 88, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+/* line 102, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
 footer .logos_footer li a {
   text-decoration: none;
 }
 
-/* line 91, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+/* line 105, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
 footer .logos_footer li a .bi {
   color: black;
   font-size: 30px;
   margin: 10px;
+}
+
+@media (max-width: 1200px) {
+  /* line 118, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+  .container .contactanos-div {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 122, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+  .container .contactanos-div .formulario {
+    width: auto;
+    margin: 0 0px 0 0px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
