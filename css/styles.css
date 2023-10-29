@@ -44,84 +44,136 @@ header .fondoMenu {
 }
 
 /* line 52, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
-.container .titulo-contactanos {
+.container .hero {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 59, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.container .contactanos-div, .container .sobre-nos-div {
   display: flex;
   justify-content: center;
 }
 
-/* line 58, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
-.container .contactanos-div {
-  display: flex;
-  justify-content: center;
+/* line 63, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.container .contactanos-div .sobre-nos-img, .container .sobre-nos-div .sobre-nos-img {
+  width: 70%;
+  margin: 0 20px 0 10px;
 }
 
-/* line 62, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
-.container .contactanos-div .formulario {
+/* line 67, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.container .contactanos-div .sobre-nos-img img, .container .sobre-nos-div .sobre-nos-img img {
+  width: 100%;
+}
+
+/* line 72, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.container .contactanos-div .sobre-nos-texto, .container .sobre-nos-div .sobre-nos-texto {
+  width: 30%;
+}
+
+/* line 75, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.container .contactanos-div .sobre-nos-texto p, .container .sobre-nos-div .sobre-nos-texto p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+/* line 82, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.container .contactanos-div .formulario, .container .sobre-nos-div .formulario {
   width: 40%;
   margin: 0 50px 0 50px;
 }
 
-/* line 66, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
-.container .contactanos-div .formulario span {
+/* line 86, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.container .contactanos-div .formulario span, .container .sobre-nos-div .formulario span {
   display: flex;
   justify-content: space-between;
   margin: 10px;
 }
 
-/* line 72, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
-.container .contactanos-div .formulario .btn-enviar {
+/* line 92, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.container .contactanos-div .formulario .btn-enviar, .container .sobre-nos-div .formulario .btn-enviar {
   display: flex;
   justify-content: right;
 }
 
-/* line 78, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
-.container .contactanos-div .mapa {
+/* line 98, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+.container .contactanos-div .mapa, .container .sobre-nos-div .mapa {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 60%;
-  margin: 0 50px 0 50px;
+  /* margin: 0 50px 0 50px; */
 }
 
 /*footer */
-/* line 92, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+/* line 112, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
 footer {
   background-color: #1AACAC;
 }
 
-/* line 95, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+/* line 115, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
 footer .logos_footer {
   display: flex;
   justify-content: center;
 }
 
-/* line 99, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+/* line 119, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
 footer .logos_footer li {
   list-style-type: none;
 }
 
-/* line 102, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+/* line 122, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
 footer .logos_footer li a {
   text-decoration: none;
 }
 
-/* line 105, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+/* line 125, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
 footer .logos_footer li a .bi {
   color: black;
   font-size: 30px;
   margin: 10px;
 }
 
-@media (max-width: 1200px) {
-  /* line 118, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
-  .container .contactanos-div {
+@media (max-width: 768px) {
+  /* line 137, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+  .container .hero {
+    height: 75px;
+  }
+  /* line 141, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+  .container .contactanos-div, .container .sobre-nos-div {
     flex-direction: column;
     align-items: center;
   }
-  /* line 122, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
-  .container .contactanos-div .formulario {
+  /* line 145, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+  .container .contactanos-div .sobre-nos-img, .container .sobre-nos-div .sobre-nos-img {
     width: auto;
     margin: 0 0px 0 0px;
+  }
+  /* line 149, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+  .container .contactanos-div .sobre-nos-img img, .container .sobre-nos-div .sobre-nos-img img {
+    width: 100%;
+  }
+  /* line 155, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+  .container .contactanos-div .sobre-nos-texto, .container .sobre-nos-div .sobre-nos-texto {
+    width: auto;
+    margin: 10px 0 0 0;
+  }
+  /* line 159, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+  .container .contactanos-div .sobre-nos-texto p, .container .sobre-nos-div .sobre-nos-texto p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  /* line 166, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+  .container .contactanos-div .formulario, .container .sobre-nos-div .formulario {
+    width: auto;
+    margin: 0 0px 0 0px;
+  }
+  /* line 171, ../../../OneDrive - VENG SA/Documentos/Web-Dev/Entrega_final/sass/styles.scss */
+  .container .contactanos-div .mapa, .container .sobre-nos-div .mapa {
+    width: 100%;
+    margin: 0 0 0 0;
   }
 }
 
